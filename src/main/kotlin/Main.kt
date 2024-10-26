@@ -6,9 +6,10 @@ fun main(args: Array<String>) {
     val solution = Solution()
 
     val array : Array<String> = arrayOf(
-        "salom",
-        "qalesan",
-        "jurabek"
+        "shukurillo",
+        "sharabek",
+        "shukurillo",
+//        "yusuf"
     )
 
     println(solution.longestCommonPrefix(array))
