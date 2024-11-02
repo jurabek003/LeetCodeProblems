@@ -3,6 +3,7 @@ package problems.LongestCommonPrefix
 class Solution {
 
     fun longestCommonPrefix(strs: Array<String>): String {
+
         // bu usul itemni harflarini joyiga qarap topadi
         var current = strs[0]
         for (i in 0..strs.size-2) {
